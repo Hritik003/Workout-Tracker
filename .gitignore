@@ -8,4 +8,4 @@ config.env
 *.tmp
 
 # Ignore node_modules directory
-node_modules/
+backend/node_modules/
