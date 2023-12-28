@@ -2,10 +2,10 @@
 logs/
 
 # Ignore environment files
-config.env
+.env
 
 # Ignore temporary files
 *.tmp
 
 # Ignore node_modules directory
-backend/node_modules/
+node_modules/
