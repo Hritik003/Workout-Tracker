@@ -15,7 +15,7 @@ const WorkoutForm =() =>{
 
         const response = await fetch('/api/workouts',{
             method:'POST',
-            bod: JSON.stringify(workout),
+            body: JSON.stringify(workout),
             headers: {
                 'Content-Type':'application/json'
             }
@@ -44,7 +44,7 @@ const WorkoutForm =() =>{
         <form  className="create" onSubmit={handleSubmit}>
             <h3>Add a New Workout</h3>
 
-            <label>Exercize Title:</label>
+            <label>Exercise Title:</label>
             <input 
             type="text" 
             onChange={(e)=>setTitle(e.target.value)}
